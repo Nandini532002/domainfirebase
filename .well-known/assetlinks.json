@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "com.example.firebase_demo",
+    "package_name": "com.example.firebase_demo",
+    "sha256_cert_fingerprints":
+    ["6F:6D:26:58:B6:F1:20:F5:DC:8A:4F:50:87:0F:2E:2C:EB:61:60:5C:CE:0C:85:C3:73:D1:E6:BB:75:25:D5:09"]
+  }
+}]
