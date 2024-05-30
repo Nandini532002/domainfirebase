@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        function redirect() {
+            var deepLink = "https://firebaseapp.com";
+            var fallbackUrl = "https://play.google.com/store/apps/com.example.firebase_demo";
+
+            // Try to open the app
+            window.location.replace(deepLink);
+
+            // Fallback to Play Store if the app is not installed
+            setTimeout(function() {
+                window.location.replace(fallbackUrl);
+            }, 25);
+        }
+    </script>
+</head>
+<body onload="redirect()">
+    Redirecting...
+</body>
+</html>
