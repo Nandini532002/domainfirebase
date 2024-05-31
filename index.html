@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Open My App</title>
+  <script type="text/javascript">
+    window.onload = function() {
+      var appLink = "myapp://path";  // Your custom URL scheme
+      var fallbackUrl = "https://play.google.com/store/apps/details?id=com.example.yourapp";  // Play Store URL
+
+      // Attempt to open the app
+      window.location.href = appLink;
+
+      // If the app is not installed, redirect to Play Store after a delay
+      setTimeout(function() {
+        window.location.href = fallbackUrl;
+      }, 2000);
+    };
+  </script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <p>Redirecting...</p>
 </body>
 </html>
