@@ -1,7 +1,7 @@
 [{
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
-    "namespace": "com.sportskred.dev",
+    "namespace": "android_app",
     "package_name": "com.sportskred.dev",
     "sha256_cert_fingerprints":
     ["36:0C:E5:80:17:4A:23:DF:64:56:47:B4:6D:72:20:B9:C7:2B:F4:7A:15:F3:E7:FC:8D:21:32:05:01:5A:42:A5"]
